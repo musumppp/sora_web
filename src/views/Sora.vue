@@ -1,7 +1,18 @@
 <template>
     <div id="home_app">
-    <img id="im00001" :src='img_url' alt="NPC变态！" draggable="false">
+    <!-- 英雄区 -->
+    <header class="home-hero">
+      <img id="im00001" :src='img_url' alt="NPC变态！" draggable="false">
+      <h1 class="hero-name">水无月 空</h1>
+      <p class="hero-roman">Minazuki Sora</p>
+      <p class="hero-desc">旨在记录对水无月空的热爱</p>
+    </header>
 
+    <div class="home-wrap">
+    <div class="home-main">
+
+    <!-- 左栏：看板娘 -->
+    <div class="col-main">
     <!-- 看板娘组件-->
     <div id="container">
            <!-- 对话框 -->
@@ -14,9 +25,11 @@
             <img id="character-sprite" alt="水无月空" src='' crossorigin="anonymous" draggable="false">
         </div>
     </div>
-    
-    
-    
+    </div><!-- /.col-main -->
+
+    <!-- 右栏：资料卡 + 签到 -->
+    <div class="col-side">
+
     <!-- 资料卡 -->
      <div id="info_card_container">
          <div id="info_card_header" style="font-size:clamp(17px,0.4rem + 1vw,3rem);text-align:center">资料卡——游戏设定</div>
@@ -91,12 +104,17 @@
       <p id="check_log_request">使用签到功能请先登录</p>
       </div>
     </div>
-    <div id="videoshare-contianer"> 
+    </div><!-- /.col-side -->
+    </div><!-- /.home-main -->
+
+    <div class="home-feed"> 
     <videoshare/>
     </div>
-    <div style="position: absolute;bottom: 0;width:100%"> 
+    </div><!-- /.home-wrap -->
+
+    <footer class="home-footer"> 
     <bottom/>
-     </div>
+     </footer>
     </div>
 
 </template>
@@ -417,9 +435,7 @@ onMounted(() => {
 </script>
 <style scoped>
 #check_label_system{
-   margin-top: 35vh;
-    width: 35vw;
-    margin-left: 60vw;
+    /* 布局位置改由 .col-side 栅格控制 */
     /* margin-bottom: 20vh; */
     
 }
@@ -570,7 +586,72 @@ onMounted(() => {
 }
 #home_app{
     position: relative;
-    min-height: 180vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== 首页栅格：全站唯一的左右基准线 ===== */
+.home-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 40px 0 32px;
+    text-align: center;
+}
+.hero-name {
+    margin: 8px 0 0;
+    font-size: clamp(1.5rem, 1rem + 1.2vw, 2.5rem);
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: 2px;
+}
+.hero-roman {
+    margin: 0;
+    font-size: clamp(0.75rem, 0.6rem + 0.4vw, 1rem);
+    color: var(--ink-3);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.hero-desc {
+    margin: 6px 0 0;
+    font-size: clamp(0.8rem, 0.7rem + 0.3vw, 1rem);
+    color: var(--ink-2);
+}
+
+.home-wrap {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 48px;
+    flex: 1;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: minmax(280px, 24vw) minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+}
+
+.col-main {
+    min-width: 0;
+}
+
+.col-side {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.home-feed {
+    margin-top: 40px;
+}
+
+.home-footer {
+    width: 100%;
 }
 #character-sprite {
     width: 100%;
@@ -584,13 +665,7 @@ onMounted(() => {
 #info_card_container{
   border-radius: 1vw;
   color: var(--ink-2);
-  position:absolute;
-  top: 25vh;
-  left: 70vw;
   background-color: var(--surface-2);
-  min-width: 20vw;
-  
-  max-width: 25vw;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   font-family: 'Quicksand', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -619,9 +694,5 @@ onMounted(() => {
   background-color: transparent;
   
 }
-#videoshare-contianer{
-  position: absolute;
-  top: 100vh;
-  left:2vw;
-}
+/* #videoshare-contianer 已由 .home-feed 取代 */
 </style>

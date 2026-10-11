@@ -85,7 +85,7 @@ onUnmounted(() => {
 
 <style scoped>
 #vedioShare {
-  width: 44vw;
+  width: 100%;
   /* height: 55vh; */
   /* min-height: 500px; */
   display: flex;
@@ -210,6 +210,6 @@ onUnmounted(() => {
   color: var(--brand-strong);
   margin-bottom: 1.5vh;
   text-align: center;
-  width: 44vw;
+  width: 100%;
 }
 </style>
