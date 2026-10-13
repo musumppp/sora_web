@@ -130,15 +130,16 @@ function onTechTap() {
 /* 简略态显示的标签 —— 想加减直接改这个数组 */
 const techTags = [
   'Vue 3',
-  'Vite 8',
+  'Vite',
   'Pinia',
   'Vue Router',
-  'dayjs',
-  'vue3-lazyload',
-  'vue-easy-lightbox',
-  '@vueuse/core',
-  '后端 · 待补充',
-  '部署 · 待补充',
+  'FastAPI',
+  'Spring Boot',
+  'Redis',
+  'Kafka',
+  'PostgreSQL',
+  'Docker',
+  'Nginx',
 ]
 
 /* ============================================================
@@ -164,18 +165,20 @@ const techGroups = [
     key: 'backend',
     label: '后端',
     items: [
-      { name: '（待填写）', desc: '语言 / 框架，例如 FastAPI、Node.js、Spring Boot…' },
-      { name: '（待填写）', desc: '数据库，例如 MySQL、PostgreSQL、SQLite…' },
-      { name: '（待填写）', desc: '用户认证方式、文件存储方式…' },
+      { name: 'FastAPI', desc: 'Python 异步 Web 框架 —— 测试环境接口服务' },
+      { name: 'Spring Boot', desc: 'Java 后端框架 —— 正式环境接口服务' },
+      { name: 'SQLite', desc: '测试环境数据库' },
+      { name: 'PostgreSQL', desc: '正式环境数据库' },
+      { name: 'Redis', desc: '内存数据库，用于缓存' },
+      { name: 'Kafka', desc: '分布式消息队列' },
     ],
   },
   {
     key: 'deploy',
     label: '部署',
     items: [
-      { name: '（待填写）', desc: '云服务商 / 服务器所在地' },
-      { name: '（待填写）', desc: 'Web 服务器 / 反向代理，例如 Nginx' },
-      { name: '（待填写）', desc: '构建发布流程、HTTPS 证书…' },
+      { name: 'Docker', desc: '容器化部署' },
+      { name: 'Nginx', desc: '反向代理与静态资源服务' },
     ],
   },
 ]
