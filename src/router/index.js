@@ -50,12 +50,20 @@ const routes = [
     name: "ResourceDetailed",
     component: ResourceDetailed,
   },
+  {
+    /* 兜底路由：访问不存在的地址时回首页，而不是白屏 */
+    path: "/:pathMatch(.*)*",
+    redirect: "/",
+  },
 ]
 
 const router = createRouter({
     history: createWebHistory(),
     routes,
-
+    /* 切换路由时回到页面顶部 —— 否则在首页滚到底部再点导航，会停在上个页面的位置 */
+    scrollBehavior() {
+        return { top: 0 }
+    },
 })
 
 

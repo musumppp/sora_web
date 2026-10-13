@@ -63,13 +63,20 @@ function get_upload_file(){
        getUploadFile.value.click();
 }
 function show_upload_file(e){
-    file_name.value = e.target.files[0]?.name || '';
-    upload_file.value = e.target.files[0];
+    const file = e.target.files[0]
+    file_name.value = file?.name || ''
+    upload_file.value = file || null
+    if (!file) return
     if (resource_category.value === 'image')
     {
-        preview_image.value = URL.createObjectURL(upload_file.value);
+        /* 换图前先释放上一张的 blob URL，否则反复选图会持续占内存 */
+        if (preview_image.value) URL.revokeObjectURL(preview_image.value)
+        preview_image.value = URL.createObjectURL(file)
     }
-    formData.append('file', upload_file.value);
+    /* 必须先 delete 再 append —— formData 是复用的同一个对象，
+       连续选文件会累积出多个同名 file 字段，上传时一起发给后端 */
+    formData.delete('file')
+    formData.append('file', file)
 }
 async function submit_upload_file(){
     if (if_uploading.value === true)
