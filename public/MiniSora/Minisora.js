@@ -187,54 +187,54 @@ const dialogue = [{"DialogueContent":DialogueText[0],
 //资源列表
 // 立绘URL（预加载用）
 const spritePaths = [
-    '/MiniSora/assets/cute_sora/daily/SORA_0101BS.png',
-    '/MiniSora/assets/cute_sora/daily/SORA_0102EG.png',
-    '/MiniSora/assets/cute_sora/daily/SORA_0102NK.png',
-    '/MiniSora/assets/cute_sora/daily/SORA_0102OD.png',
-    '/MiniSora/assets/cute_sora/daily/SORA_0103BS.png',
-    '/MiniSora/assets/cute_sora/daily/SORA_0104BS.png',
-    '/MiniSora/assets/cute_sora/daily/SORA_0105BS.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ik.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__km.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ky.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__mu.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__no.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0101bs__tr.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0102eg__ik.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__eg.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__km.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ky.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ky2.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__mu.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ne.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__nk.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__nr.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__sa.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ze.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__2.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__eg.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__km.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__kr.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ky.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ky2.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ne.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__nk.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__nr.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ny.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__sa.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0105bs__kn.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0105bs__ks.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0105bs__ky.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0105bs__mh.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.png',
-    '/MiniSora/assets/cute_sora/daily/sora_0105bs__sk2.png'
+    '/MiniSora/assets/cute_sora/daily/SORA_0101BS.webp',
+    '/MiniSora/assets/cute_sora/daily/SORA_0102EG.webp',
+    '/MiniSora/assets/cute_sora/daily/SORA_0102NK.webp',
+    '/MiniSora/assets/cute_sora/daily/SORA_0102OD.webp',
+    '/MiniSora/assets/cute_sora/daily/SORA_0103BS.webp',
+    '/MiniSora/assets/cute_sora/daily/SORA_0104BS.webp',
+    '/MiniSora/assets/cute_sora/daily/SORA_0105BS.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ik.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__km.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__ky.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__mu.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__no.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0101bs__tr.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0102eg__ik.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__eg.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__km.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ky.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ky2.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__mu.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ne.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__nk.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__nr.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__sa.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0103bs__ze.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__2.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__eg.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__km.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__kr.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ky.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ky2.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ne.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__nk.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__nr.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ny.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__sa.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0105bs__kn.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0105bs__ks.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0105bs__ky.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0105bs__mh.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.webp',
+    '/MiniSora/assets/cute_sora/daily/sora_0105bs__sk2.webp'
 ];
 
 // 语音URL（预加载用）
@@ -471,7 +471,7 @@ class spritePlayer{
             console.warn('CharacterSprite element not found for initSpriteShow');
             return;
         }
-        CharacterSprite.src = '/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.png';
+        CharacterSprite.src = '/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.webp';
         CharacterSprite.style.transform = 'translate(-50%, -50%)';
 
     }
@@ -488,32 +488,32 @@ class spritePlayer{
 
     //================对话0
     case 0 :
-         this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.png');
+         this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.webp');
          setTimeout(() =>{resolve();},2000);
          break;
     //================对话1
     case 1 :
-         this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.png');
+         this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.webp');
          
          setTimeout(() =>{resolve();},2000);
          break;
     //================对话2
     case 2 : 
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.webp');
         setTimeout(() =>{resolve();},1000);
          break;
     //================对话3
     case 3 :
-       this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0104BS.png');
-       setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__tr.png');},2000);
+       this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0104BS.webp');
+       setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__tr.webp');},2000);
        setTimeout(() =>{resolve ();},3000);
         break;
     //================对话4
     case 4 : 
-         this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__eg.png');
+         this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__eg.webp');
          //每次切换完立绘后一定不能直接进行动作！！至少要进行短暂的setTimeout
          setTimeout(() =>{Action.low_jump.execute();},100);
-         setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__nr.png');},2656);
+         setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__nr.webp');},2656);
          setTimeout(() =>{Action.shyBow.execute();},3000);
 
         //resolve时间应为最后一个操作开始时间+操作持续时间
@@ -521,177 +521,177 @@ class spritePlayer{
           break;
     //===============对话5
     case 5:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0105BS.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0105BS.webp');
         setTimeout(() =>{resolve();},7000);
         break;
     //==============对话6
     case 6:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.webp');
         setTimeout(() =>{Action.low_jump.execute();},100);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__kn.png');},2000);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__kn.webp');},2000);
         setTimeout(() =>{resolve();},4000);
         break;
     //==============对话7
     case 7:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.png');},3845);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.webp');},3845);
         setTimeout(() =>{resolve();},5000);
         break;
     //=============对话8
     case 8:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__km.png');},2250);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__km.webp');},2250);
         setTimeout(() =>{resolve();},5000);
         break;
     //=============对话9
     case 9:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__mu.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ik.png');},2500);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__mu.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ik.webp');},2500);
         setTimeout(() =>{resolve();},4000);
         break;
     //=============对话10
     case 10:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__no.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__no.webp');
         setTimeout(() =>{resolve();},2000);
         break;
     //=============对话11
     case 11:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.webp');
         setTimeout(() =>{resolve();},1000);
         break;
     //=============对话12
     case 12:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__mu.png');},900);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ka.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__mu.webp');},900);
         setTimeout(() =>{Action.fast_jump.execute();},1050);
         setTimeout(() =>{Action.fast_jump.execute();},1700);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.png');},2500);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.png');},5800);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.webp');},2500);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.webp');},5800);
         setTimeout(() =>{resolve();},6000);
         break;
     //=============对话13
     case 13:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__sa.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__sa.webp');
         setTimeout(() =>{resolve();},1000);
         break;
     //=============对话14
     case 14:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ky2.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ny.png');},2700);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ky2.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ny.webp');},2700);
         setTimeout(() =>{resolve();},4000);
         break;
     //=============对话15
     case 15:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__2.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.png');},4000);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__eg.png');},5800);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102EG.png');},8550);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__2.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.webp');},4000);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__eg.webp');},5800);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102EG.webp');},8550);
         setTimeout(() =>{Action.high_jump.execute();},8650);
         setTimeout(() =>{resolve();},10700);
         break;
     //=============对话16
     case 16:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.png');},1500);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ze.png');},2965);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.webp');},1500);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ze.webp');},2965);
         setTimeout(() =>{resolve();},3200);
         break;
     //=============对话17
     case 17:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ne.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.png');},2900);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ne.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.webp');},2900);
         setTimeout(() =>{resolve();},5000);
         break;
     //=============对话18
     case 18:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ne.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.png');},1700);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ne.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.webp');},1700);
         setTimeout(() =>{resolve();},3400);
         break;
     //=============对话19
     case 19:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__mu.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.png');},1500);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__mu.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.webp');},1500);
         setTimeout(() =>{resolve();},2000);
         break;
     //=============对话20
     case 20:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.png');},1540);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.webp');},1540);
         setTimeout(() =>{resolve();},2000);
         break;
     //=============对话21
     case 21:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ky.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.png');},1800);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.png');},3550);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ky.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.webp');},1800);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.webp');},3550);
         setTimeout(() =>{resolve();},5000);
         break;
     //=============对话22
     case 22:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.webp');
         setTimeout(() =>{Action.low_jump.execute();},100);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__nk.png');},1250);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__nk.webp');},1250);
         setTimeout(() =>{Action.shyBow.execute();},1400);
         setTimeout(() =>{resolve();},4000);
         break;
     //=============对话23
     case 23:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0105BS.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0105BS.webp');
         setTimeout(() =>{resolve();},1000);
         break;
     //=============对话24
     case 24:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.png');},2150);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.webp');},2150);
         setTimeout(() =>{Action.fast_high_jump.execute();},2300);
         setTimeout(() =>{resolve();},3500);
         break;
     //=============对话25
     case 25:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.webp');
         setTimeout(() =>{Action.fast_high_jump.execute();},100);
         setTimeout(() =>{resolve();},1000);
         break;
     //=============对话26
     case 26:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ky.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ky.webp');
         setTimeout(() =>{Action.fast_jump.execute();},100);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__km.png');},700);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__km.webp');},700);
         setTimeout(() =>{Action.low_jump.execute();},800);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.png');},2300);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ir.webp');},2300);
         setTimeout(() =>{resolve();},2400);
         break;
     //============对话27
     case 27:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.webp');
         setTimeout(() =>{Action.low_jump.execute();},100);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.png');},800);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.webp');},800);
         setTimeout(() =>{resolve();},2000);
         break;
     //============对话28
     case 28:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.webp');
         setTimeout(() =>{Action.high_jump.execute();},1100);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0102eg__ik.png');},1800);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.png');},4300);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0102eg__ik.webp');},1800);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.webp');},4300);
         setTimeout(() =>{resolve();},4500);
         break;
     //============对话29
     case 29:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__no.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.png');},5350);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__no.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__eg.webp');},5350);
         setTimeout(() =>{resolve();},6000);
         break;
     //============对话30
     case 30:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.webp');
         setTimeout(() =>{Action.very_slow_shake.execute();},100);
         setTimeout(() =>{resolve();},3400);
         break;
     //============对话31
     case 31:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ze.webp');
         setTimeout(() =>{Action.fast_jump.execute();},100);
         setTimeout(() =>{Action.low_jump.execute();},950);
         setTimeout(() =>{Action.high_jump.execute();},1800);
@@ -699,113 +699,113 @@ class spritePlayer{
         break;
     //============对话32
     case 32:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0101BS.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0101BS.webp');
         setTimeout(() =>{resolve();},1000);
         break;
     //============对话33
     case 33:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ky2.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ky2.webp');
         setTimeout(() =>{Action.low_jump.execute();},100);
         setTimeout(() =>{resolve();},1500);
         break;
     //============对话34
     case 34:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__tr.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.png');},2600);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__tr.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.webp');},2600);
         setTimeout(() =>{resolve();},4000);
         break;
     //============对话35
     case 35:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.png');},5000);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.webp');},5000);
         setTimeout(() =>{resolve();},5500);
         break;
     //============对话36
     case 36:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__mu.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ze.png');},1100);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__mu.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ze.webp');},1100);
         setTimeout(() =>{Action.fast_jump.execute();},1200);
         setTimeout(() =>{resolve();},2800);
         break;
     //============对话37
     case 37:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__sa.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__nk.png');},1350);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__sa.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__nk.webp');},1350);
         setTimeout(() =>{resolve();},3000);
         break;
     //============对话38
     case 38:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__mh.png');},1250);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.png');},5650);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ks.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__mh.webp');},1250);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0103BS.webp');},5650);
         setTimeout(() =>{resolve();},6000);
         break;
     //============对话39
     case 39:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102EG.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102EG.webp');
         setTimeout(() =>{resolve();},2000);
         break;
     //============对话40
     case 40:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__km.webp');
         setTimeout(() =>{resolve();},1000);
         break;
     //============对话41
     case 41:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0102eg__ik.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0102eg__ik.webp');
         setTimeout(() =>{resolve();},1000);
         break;
     //============对话42
     case 42:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk2.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.png');},1500);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__ks.png');},5300);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0105BS.png');},8250);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk2.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk.webp');},1500);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__ks.webp');},5300);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0105BS.webp');},8250);
         setTimeout(() =>{resolve();},8700);
         break;
     //============对话43
     case 43:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__ky.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__km.png');},1950);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__nr.png');},3750);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__ky.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__km.webp');},1950);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__nr.webp');},3750);
         setTimeout(() =>{resolve();},5000);
         break;
     //============对话44
     case 44:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ky.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.png');},1300);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.png');},3150);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ky.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ir.webp');},1300);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.webp');},3150);
         setTimeout(() =>{resolve();},4000);
         break;
     //============对话45
     case 45:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__kr.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ik.png');},950);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.png');},2100);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__kr.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ik.webp');},950);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102NK.webp');},2100);
         setTimeout(() =>{Action.fast_high_jump.execute();},2200);
         setTimeout(() =>{resolve();},2800);
         break;
     //============对话46
     case 46:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ne.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0104BS.png');},2150);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0103bs__ne.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0104BS.webp');},2150);
         setTimeout(() =>{resolve();},2700);
         break;
     //============对话47
     case 47:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__kn.png');
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__sa.png');},2650);
-        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk2.png');},5150);
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__kn.webp');
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__sa.webp');},2650);
+        setTimeout(() =>{this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0105bs__sk2.webp');},5150);
         setTimeout(() =>{resolve();},7000);
         break;
     //============对话48
     case 48:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ky.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ky.webp');
         setTimeout(() =>{resolve();},400);
         break;
     //============对话49
     case 49:
-        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ky2.png');
+        this.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0104bs__ky2.webp');
         setTimeout(() =>{resolve();},600);
         break;
 
@@ -938,7 +938,7 @@ window.infoCard = function (id) {
          const sprite_to_info = new spritePlayer();
          const dialogue_to_info = new dialoguePlayer('?。。。。。。');
          dialogue_to_info.DialogueShow();
-         setTimeout(() => sprite_to_info.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.png'),100);
+         setTimeout(() => sprite_to_info.ChangeSprite('/MiniSora/assets/cute_sora/daily/sora_0101bs__ks.webp'),100);
          
     setTimeout(() => {
         hideDialogue();
@@ -954,7 +954,7 @@ window.infoCard = function (id) {
          const sprite_to_info = new spritePlayer();
          const dialogue_to_info = new dialoguePlayer('何意味！');
          dialogue_to_info.DialogueShow();
-         setTimeout(() => sprite_to_info.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.png'),100);
+         setTimeout(() => sprite_to_info.ChangeSprite('/MiniSora/assets/cute_sora/daily/SORA_0102OD.webp'),100);
          
     setTimeout(() => {
         hideDialogue();

@@ -9,7 +9,7 @@
       :src="music_image"
       alt="背景音乐"
       draggable="false"
-      :title="open ? '收起播放器' : '空站的背景音乐'"
+      :title="open ? '收起播放器' : '背景音乐'"
       @dragstart.prevent
       @click="togglePanel"
     />
@@ -91,7 +91,7 @@
 <script setup>
 import { ref, watch, nextTick, onMounted, onBeforeUnmount } from 'vue'
 import { useDraggable, useWindowSize, useElementSize } from '@vueuse/core'
-import music_image from '@/assets/images/music.png'
+import music_image from '@/assets/images/music.webp'
 import bgm_music1 from '@/assets/bgm/1.mp3'
 import bgm_music2 from '@/assets/bgm/2.mp3'
 import bgm_music3 from '@/assets/bgm/3.mp3'

@@ -2,11 +2,11 @@
 import { ref, onMounted, computed } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
 
-import bg1 from './assets/images/i00001.jpg';
-import bg2 from './assets/images/i00002.png';
-import bg3 from './assets/images/i00003.jpeg';
-import bg4 from './assets/images/i00004.jpg';
-import bg5 from './assets/images/i00005.jpg';
+import bg1 from './assets/images/i00001.webp';
+import bg2 from './assets/images/i00002.webp';
+import bg3 from './assets/images/i00003.webp';
+import bg4 from './assets/images/i00004.webp';
+import bg5 from './assets/images/i00005.webp';
 import bgmplayer from '@/components/bgmplayer.vue'
 import { useUserStore } from '@/stores/user';
 

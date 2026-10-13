@@ -237,7 +237,7 @@ const constant_check_times = ref(0);
 const total_check_times = ref(0);
 const lastest_check_time = ref('');
 const router = useRouter();
-const img_url = new URL('@/assets/images/im00001.jpeg', import.meta.url).href;
+const img_url = new URL('@/assets/images/im00001.webp', import.meta.url).href;
 
 // ===== 最近动态 =====
 const activities = ref([]);
