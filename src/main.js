@@ -5,6 +5,11 @@ import App from './App.vue'
 import router from './router'
 import piniapluginpersistedstate from 'pinia-plugin-persistedstate'
 import Vue3Lazyload from 'vue3-lazyload'
+
+/* 本地测试数据：必须在 mount 之前执行，否则组件的 onMounted 已经发完请求了。
+   仅在开发环境生效，生产构建会被整体剔除（详见 src/mock/index.js）。 */
+import './mock/index.js'
+
 const app = createApp(App)
 const pinia = createPinia()
 pinia.use(piniapluginpersistedstate)
