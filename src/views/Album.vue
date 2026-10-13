@@ -104,7 +104,7 @@ async function getImgContainerList(){
 
           return;
         }
-    if(res.status === 404){
+    if(response.status === 404){
         console.log('获取图片失败')
     }
     }catch(error){

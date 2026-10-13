@@ -224,6 +224,17 @@ onMounted(() =>{
   position: relative;
 }
 
+/* 基础位移 —— 必须写在下面 2K/4K 媒体查询【之前】。
+   原来它写在文件末尾，与媒体查询里的规则同优先级（都是单类选择器），
+   按 CSS 顺序后者覆盖前者，导致高分辨率下的位移微调全部失效。 */
+.arrow-right {
+  transform: rotate(45deg) translate(-2px, 2px);
+}
+
+.arrow-left {
+  transform: rotate(-135deg) translate(1px, 2px);
+}
+
 /* 2K 到 4K 分辨率*/
 @media (min-width: 2560px) and (max-width: 3839px) {
   .arrow {
@@ -264,14 +275,6 @@ onMounted(() =>{
   }
 }
 
-
-.arrow-right {
-  transform: rotate(45deg) translate(-2px, 2px);
-}
-
-.arrow-left {
-  transform: rotate(-135deg) translate(1px, 2px);
-}
 
 /* ============================================================
  * 窄屏：桌面端的样子保持不变，只修手机上的问题
