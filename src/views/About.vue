@@ -102,9 +102,9 @@ import { ref } from 'vue'
 import Announcement from '@/components/announcement.vue'
 
 /* ============================================================
- * ⚠️ 把这里换成你的 GitHub 仓库地址（例如 https://github.com/xxx/sora_web）
+ * GitHub 仓库地址
  * ============================================================ */
-const GITHUB_URL = '#'
+const GITHUB_URL = 'https://github.com/musumppp/sora_web'
 
 /* 地址填了才让按钮可点；没填时只是禁用态，不会点一下跳到页首 */
 const ghReady = GITHUB_URL.startsWith('http')
