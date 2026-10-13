@@ -161,6 +161,44 @@ box-shadow: 0 0 10px rgba(232, 138, 168, 0.3), 0 0 20px rgba(232, 138, 168, 0.15
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ============================================================
+ * 窄屏：资源详情页
+ *   标题下限 35px / 描述下限 25px 在手机上偏大，
+ *   装饰条和返回按钮用的是 vw，手机上会缩到看不见
+ * ============================================================ */
+@media (max-width: 820px) {
+  .detailed_name {
+    font-size: 1.55rem;
+    margin-top: 6rem;
+    max-width: 100%;
+  }
+  #description_detailed {
+    font-size: 1.25rem;
+    border-left-width: 3px;
+    padding-left: 10px;
+  }
+  #content-container {
+    min-width: 0;
+    width: 100%;
+    padding: 0 18px;
+    box-sizing: border-box;
+  }
+  #download_text {
+    margin-top: 3rem;
+    font-size: 1.05rem;
+  }
+  .detailed_content {
+    width: auto;
+    height: auto;
+    padding: 9px 20px;
+  }
+  #returnButton {
+    left: 14px;
+    top: 96px;
+    font-size: 1rem;
+  }
+}
 #download_text_continaer{
  
   margin-bottom: 10vh;;

@@ -210,4 +210,55 @@ onUnmounted(()=>{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     letter-spacing: 0.5px; 
 }
+
+/* ============================================================
+ * 窄屏：相册在手机上会横向撑破
+ *   1. .img_container 是写死的 350×350，而 .album_container 的内容宽
+ *      只有 295px（width:75% 再减去 4vw 内边距）→ 每张图都溢出
+ *   2. grid 的 minmax(300px,1fr) 里的 300px 下限同样大于可用宽度
+ *   3. 公告按钮 top:10vh 会压在导航栏上，max-width:10vw 只有 44px
+ * ============================================================ */
+@media (max-width: 820px) {
+    .album_container {
+        width: 100%;
+        min-width: 0;
+        padding: 14px;
+        gap: 12px;
+        /* 两列小图，比单列大图更适合手机 */
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        border-radius: 0;
+    }
+    .img_container {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        margin: 0;
+    }
+    #notice_button {
+        right: 12px;
+        top: 96px;
+        font-size: 0.78rem;
+        padding: 7px 13px;
+    }
+    #notice-container {
+        right: 12px;
+        top: 140px;
+        max-width: min(78vw, 300px);
+        padding: 12px 14px;
+    }
+    #notice {
+        font-size: 0.8rem;
+    }
+}
+
+/* ============================================================
+ * 触摸设备（与宽度无关）：图片的放大 hover 在触摸屏上会「粘住」
+ * —— 点一张图后它会一直保持放大状态。平板也是触摸屏，所以这条
+ * 不能写在窄屏断点里，否则 iPad 上依然会粘。
+ * ============================================================ */
+@media (hover: none) and (pointer: coarse) {
+    .img_container:hover {
+        transform: none;
+    }
+}
 </style>

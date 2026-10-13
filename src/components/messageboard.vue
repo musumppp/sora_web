@@ -307,4 +307,50 @@ onUnmounted(()=>{
     
     box-shadow: var(--shadow-card);
 }
+
+/* ============================================================
+ * 窄屏：原来 #message_board 是 20vw —— 440px 的手机上只有 88px，
+ * 正文被挤成一条「面条」。宽度改回 100%，交给外层容器决定。
+ * #message_board_button 的 left:20vw 是把按钮右对齐的小技巧，
+ * 容器变宽后要同步改成 left:100%（配合 translateX(-100%) 效果一致）。
+ * ============================================================ */
+@media (max-width: 820px) {
+    #message_board {
+        width: 100%;
+    }
+    #message_board_header {
+        font-size: 1.15rem;
+        margin-bottom: 0.4rem;
+    }
+    #message_board_body {
+        min-height: 30vh;
+        max-height: 52vh;
+    }
+    #message_board_button {
+        left: 100%;
+        width: 96px;
+        height: 40px;
+        font-size: 0.85rem;
+    }
+    #single_message_time {
+        font-size: 0.72rem;
+    }
+    #single_message_container_line {
+        font-size: 0.92rem;
+    }
+    #message_board_textarea {
+        height: 76px;
+        font-size: 0.95rem;
+    }
+}
+
+/* 触摸设备：留言条目和「暂无留言」的 hover 效果会粘住 */
+@media (hover: none) and (pointer: coarse) {
+    #no_log_message:hover {
+        background-color: var(--surface-glass);
+        border-color: var(--line-2);
+        color: var(--ink-3);
+        box-shadow: none;
+    }
+}
 </style>

@@ -272,4 +272,42 @@ onMounted(() =>{
 .arrow-left {
   transform: rotate(-135deg) translate(1px, 2px);
 }
+
+/* ============================================================
+ * 窄屏：桌面端的样子保持不变，只修手机上的问题
+ * 原来 .panel-open 用 12vw —— 440px 的手机上只有 53px，
+ * 减去 28px 左右内边距后正文只剩 25px，「字会竖着排」；
+ * .toggle-button 的 2vw 同理，只有 8.8px 宽，根本点不到。
+ * ============================================================ */
+@media (max-width: 820px) {
+  .panel {
+    height: 64vh;
+  }
+  .panel-open {
+    width: min(76vw, 320px);
+  }
+  .panel-content {
+    width: min(76vw, 320px);
+    padding: 3vh 16px;
+  }
+  .toggle-button {
+    width: 32px;
+    height: 64px;
+  }
+  .announcement-item h3 { font-size: 1rem; }
+  .announcement-item h4 { font-size: 0.9rem; }
+  .announcement-item p { font-size: 0.82rem; line-height: 1.7; }
+}
+
+/* 触摸设备：把侧边开关的点击区再放大一点（手指没那么准） */
+@media (hover: none) and (pointer: coarse) {
+  .toggle-button {
+    width: 40px;
+    height: 72px;
+  }
+  .toggle-button:hover {
+    background: var(--surface);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.08);
+  }
+}
 </style>

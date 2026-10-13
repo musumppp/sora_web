@@ -185,4 +185,76 @@ onMounted(()=>{
     flex-direction: row;
     padding: 0 0 0 20vw;
 }
+
+/* ============================================================
+ * 窄屏：个人中心
+ *   1. 原来 .user-info 是 margin-top:30vh —— 手机上要么顶上留 287px 空白，
+ *      要么（上一版改法）贴着顶部。现在改成整块在视口里垂直居中。
+ *   2. .info 的 padding-left:20vw 把内容整体推到右边
+ *   3. 注销按钮的 width:2.5vw + margin-left:calc(50% - 2.5vw) 是配套的居中技巧，
+ *      但宽度早已被 min-width:70px 覆盖 → 偏移算错、按钮偏左
+ * ============================================================ */
+@media (max-width: 820px) {
+    /* 整块（4 行信息 + 退出按钮）在视口中间 */
+    .user {
+        min-height: calc(100vh - 88px);
+        min-height: calc(100dvh - 88px);   /* 移动端动态视口，避开地址栏 */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0 56px;
+        box-sizing: border-box;
+    }
+    .user-info {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    #user_info_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    /* 每行整体居中；标签等宽右对齐，冒号对齐后才不会参差不齐 */
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 0.45rem;
+        width: 100%;
+        padding: 0;
+        margin-top: 1.05rem;
+    }
+    .info:first-child {
+        margin-top: 0;
+    }
+    .type {
+        flex: 0 0 auto;
+        min-width: 7em;
+        text-align: right;
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    .content {
+        flex: 0 0 auto;
+        text-align: left;
+        margin-top: 0;
+        font-size: 0.95rem;
+    }
+    #log_out_button {
+        display: block;
+        width: auto;
+        min-width: 116px;
+        height: 42px;
+        margin: 2.2rem auto 0;
+        padding: 0 24px;
+        font-size: 0.92rem;
+    }
+}
 </style>

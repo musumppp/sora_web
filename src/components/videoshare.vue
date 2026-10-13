@@ -1,8 +1,6 @@
 <template>
-  <div id="header">视频推荐</div>
   <div id="vedioShare">
 
-    
     <div class="video-list" v-if="!loading">
       <div class="video-item" v-for="item in currentPageData" :key="item.id">
         <span class="video-title">{{ item.title }}</span>

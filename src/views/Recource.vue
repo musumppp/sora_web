@@ -231,4 +231,41 @@ onMounted(()=>{
     right: 5vw;
     top: 10vh;
 }
+
+/* ============================================================
+ * 窄屏：创作资源页在手机上几乎全部塌掉，逐块收拾
+ * ============================================================ */
+@media (max-width: 820px) {
+    #resource {
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+    /* 原来 left:10vw + top:10vh 把三个分类标签顶到右边、压到下面 */
+    #page_concrol {
+        left: 0;
+        top: 0;
+        gap: 1.2rem;
+        margin: 0.9rem 0 1rem;
+        font-size: 1rem;
+    }
+    /* 原来固定 70vh + padding 14vh 0 0 13vw（顶部空掉 134px、左边 57px） */
+    #page {
+        height: auto;
+        min-height: 30vh;
+        padding: 1rem 0 0;
+    }
+    .ResourceListTitle {
+        margin-left: 0;
+        font-size: 0.95rem;
+    }
+    /* 留言板从「绝对定位在右侧、20vw 宽」改回正常流 —— 不然就是一条面条 */
+    #messageboard {
+        position: static;
+        margin: 2.5rem 0 3rem;
+        padding: 0 16px;
+    }
+}
 </style>
