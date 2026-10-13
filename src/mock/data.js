@@ -130,11 +130,11 @@ export const communityResource = () => ({
 /** POST /resource/get_detail_info */
 export const resourceDetail = (body) => ({
   status: 200,
-  title: body?.resource_name ? `资源详情 · ${body.resource_name}` : '资源详情（本地测试数据）',
+  /* 真实后端返回的 title 应该就是资源名本身，不再由页面拼「资源详情 ·」前缀 */
+  title: body?.resource_name || '资源名称（本地测试数据）',
   description:
-    '这是本地测试数据，用于预览详情页排版。\n\n' +
-    '正式环境这里会显示资源的说明文字、使用方式、注意事项等内容。\n' +
-    '这一段故意写长一点，方便看多行文本的行高、换行、间距是否符合预期。',
+    '这里是本地测试数据，用于预览详情页排版。\n' +
+    '正式环境会显示资源的说明与使用方式 —— 按现网情况，一般也就一两句话。',
   resource_url: 'https://example.com/resource.zip',
 })
 
