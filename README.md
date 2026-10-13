@@ -45,8 +45,8 @@ npm run dev
 - 开关在 `src/mock/index.js` 顶部的 `MOCK_ENABLED`
 - 浏览器控制台可用 `__mock.login()` / `__mock.logout()` 切换登录态
 
->  `src/mock/`、`src/assets/bgm/`、`src/assets/images/` 
-> 未纳入版本控制**，clone 后这些目录是空的。
+> `src/mock/`、`src/assets/bgm/`、`src/assets/images/`
+> 未纳入版本控制，clone 后这些目录是空的。
 > 需要自行补齐素材；或者注释掉 `src/main.js` 里对 mock 的那行引入，再接你自己的后端。
 
 ## 构建与部署
