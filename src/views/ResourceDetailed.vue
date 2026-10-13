@@ -19,7 +19,7 @@
       </section>
 
       <section class="detail-block">
-        <h2 class="block-title">下载</h2>
+       
         <a class="download-btn" :href="show_url" target="_blank" rel="noopener noreferrer">
           <svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true">
             <path d="M10 3.6v8.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" fill="none"/>
