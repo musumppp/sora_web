@@ -6,7 +6,7 @@
         <slot>
           <!-- 公告内容 -->
           <div class="announcement-item">
-            <h3>当前版本V0.5</h3>
+            <h3>当前版本V1.0</h3>
             <p></p> 
           </div>
           <div class="announcement-item">
@@ -15,6 +15,7 @@
           </div>
           <div class="announcement-item">
             <h4> 重要公告</h4>
+            <p>水无月空站正式上线!</p>
             <p >如果资源分享中有哪些资源失效，请用qq邮箱或者b站私信联系站长</p>
             <p>首页看板娘需要加载立绘和语音资源，网络好的话需要3~5秒的时间，请不要立即点击，否则会出现严重延迟</p>
             <p v-for="announce in announceListGonggao" :key="announce.id">{{announce.content}}</p>
@@ -22,6 +23,7 @@
           <div class="announcement-item">
             <h4> 版本更新</h4>
             <!-- 最新的在最上面，越往下越旧 -->
+            <p>2026.10.14正式版v1.0上线！</p>
             <p>2026.7.19测试版本v0.5:新增功能：空视频创作结合，站长会把空相关的b站创作视频列在下面</p>
             <p>2026.6.28测试版本v0.4:修改了主页看板娘动作幅度的计算逻辑，高分辨率屏幕下也能正常显示了</p>
             <p>测试版本v0.3:修复了一个神秘小bug</p>
