@@ -164,10 +164,9 @@ const techGroups = [
     key: 'backend',
     label: '后端',
     items: [
-      { name: 'FastAPI', desc: 'Python 后端框架，测试环境接口' },
-      { name: 'Spring Boot', desc: 'Java 后端框架，正式环境接口' },
-      { name: 'SQLite', desc: '测试环境数据库' },
-      { name: 'PostgreSQL', desc: '正式环境数据库' },
+      { name: 'FastAPI', desc: 'Python 异步后端框架' },
+      { name: 'SQLite', desc: '测试版数据库' },
+      { name: 'PostgreSQL', desc: '正式版数据库' },
       { name: 'Redis', desc: '缓存' },
     ],
   },
