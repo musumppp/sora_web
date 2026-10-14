@@ -21,5 +21,8 @@
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
-  <script src="/MiniSora/Minisora.js"></script>
+  <!-- Minisora.js 的文件名不带 hash，而线上曾经用 `immutable` 缓存过它 1 年，
+       老访客浏览器不会复验 —— 加个版本参数把它变成全新 URL，强制取新版。
+       以后每次改动这个文件，把日期往后推一位即可。 -->
+  <script src="/MiniSora/Minisora.js?v=20261014"></script>
 </html>
